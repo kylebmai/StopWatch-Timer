@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E534FDDC17EE9EF500244F28 /* furb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E534FDDB17EE9EF500244F28 /* furb@2x.png */; };
+		E5A6C53017ECF8CC002A103F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A6C52F17ECF8CC002A103F /* Foundation.framework */; };
+		E5A6C53217ECF8CC002A103F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A6C53117ECF8CC002A103F /* CoreGraphics.framework */; };
+		E5A6C53417ECF8CC002A103F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A6C53317ECF8CC002A103F /* UIKit.framework */; };
+		E5A6C53A17ECF8CC002A103F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5A6C53817ECF8CC002A103F /* InfoPlist.strings */; };
+		E5A6C53C17ECF8CC002A103F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A6C53B17ECF8CC002A103F /* main.m */; };
+		E5A6C54017ECF8CC002A103F /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A6C53F17ECF8CC002A103F /* MMAppDelegate.m */; };
+		E5A6C54317ECF8CC002A103F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A6C54117ECF8CC002A103F /* Main.storyboard */; };
+		E5A6C54617ECF8CC002A103F /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A6C54517ECF8CC002A103F /* MMViewController.m */; };
+		E5A6C54817ECF8CC002A103F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A6C54717ECF8CC002A103F /* Images.xcassets */; };
+		E5A6C54F17ECF8CC002A103F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A6C54E17ECF8CC002A103F /* XCTest.framework */; };
+		E5A6C55017ECF8CC002A103F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A6C52F17ECF8CC002A103F /* Foundation.framework */; };
+		E5A6C55117ECF8CC002A103F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A6C53317ECF8CC002A103F /* UIKit.framework */; };
+		E5A6C55917ECF8CC002A103F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5A6C55717ECF8CC002A103F /* InfoPlist.strings */; };
+		E5A6C55B17ECF8CC002A103F /* MMStopWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A6C55A17ECF8CC002A103F /* MMStopWatchTests.m */; };
+		E5A6C56617ECFE1F002A103F /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5A6C56417ECFE1F002A103F /* Roboto-Light.ttf */; };
+		E5A6C56717ECFE1F002A103F /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5A6C56517ECFE1F002A103F /* Roboto-Regular.ttf */; };
+		E5A6C56A17ED02B6002A103F /* MMRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A6C56917ED02B6002A103F /* MMRoundButton.m */; };
+		E5C6D66917EFAB750013BC9D /* 911 Porscha.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5C6D66817EFAB750013BC9D /* 911 Porscha.ttf */; };
+		E5C6D66A17EFACC90013BC9D /* 911 Porscha.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5C6D66817EFAB750013BC9D /* 911 Porscha.ttf */; };
+		E5C6D66C17EFBD090013BC9D /* banana.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5C6D66B17EFBD090013BC9D /* banana.mp3 */; };
+		E5C6D66E17EFBFC80013BC9D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C6D66D17EFBFC80013BC9D /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5A6C55217ECF8CC002A103F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5A6C52417ECF8CC002A103F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5A6C52B17ECF8CC002A103F;
+			remoteInfo = MMStopWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E534FDDB17EE9EF500244F28 /* furb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "furb@2x.png"; sourceTree = "<group>"; };
+		E5A6C52C17ECF8CC002A103F /* MMStopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMStopWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A6C52F17ECF8CC002A103F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5A6C53117ECF8CC002A103F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E5A6C53317ECF8CC002A103F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E5A6C53717ECF8CC002A103F /* MMStopWatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMStopWatch-Info.plist"; sourceTree = "<group>"; };
+		E5A6C53917ECF8CC002A103F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E5A6C53B17ECF8CC002A103F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5A6C53D17ECF8CC002A103F /* MMStopWatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMStopWatch-Prefix.pch"; sourceTree = "<group>"; };
+		E5A6C53E17ECF8CC002A103F /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		E5A6C53F17ECF8CC002A103F /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		E5A6C54217ECF8CC002A103F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5A6C54417ECF8CC002A103F /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
+		E5A6C54517ECF8CC002A103F /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+		E5A6C54717ECF8CC002A103F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E5A6C54D17ECF8CC002A103F /* MMStopWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMStopWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A6C54E17ECF8CC002A103F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E5A6C55617ECF8CC002A103F /* MMStopWatchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMStopWatchTests-Info.plist"; sourceTree = "<group>"; };
+		E5A6C55817ECF8CC002A103F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E5A6C55A17ECF8CC002A103F /* MMStopWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMStopWatchTests.m; sourceTree = "<group>"; };
+		E5A6C56417ECFE1F002A103F /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		E5A6C56517ECFE1F002A103F /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		E5A6C56817ED02B6002A103F /* MMRoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRoundButton.h; sourceTree = "<group>"; };
+		E5A6C56917ED02B6002A103F /* MMRoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRoundButton.m; sourceTree = "<group>"; };
+		E5C6D66817EFAB750013BC9D /* 911 Porscha.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "911 Porscha.ttf"; sourceTree = "<group>"; };
+		E5C6D66B17EFBD090013BC9D /* banana.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = banana.mp3; sourceTree = "<group>"; };
+		E5C6D66D17EFBFC80013BC9D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5A6C52917ECF8CC002A103F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C6D66E17EFBFC80013BC9D /* AVFoundation.framework in Frameworks */,
+				E5A6C53217ECF8CC002A103F /* CoreGraphics.framework in Frameworks */,
+				E5A6C53417ECF8CC002A103F /* UIKit.framework in Frameworks */,
+				E5A6C53017ECF8CC002A103F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A6C54A17ECF8CC002A103F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A6C54F17ECF8CC002A103F /* XCTest.framework in Frameworks */,
+				E5A6C55117ECF8CC002A103F /* UIKit.framework in Frameworks */,
+				E5A6C55017ECF8CC002A103F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5A6C52317ECF8CC002A103F = {
+			isa = PBXGroup;
+			children = (
+				E5A6C53517ECF8CC002A103F /* MMStopWatch */,
+				E5A6C55417ECF8CC002A103F /* MMStopWatchTests */,
+				E5A6C52E17ECF8CC002A103F /* Frameworks */,
+				E5A6C52D17ECF8CC002A103F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5A6C52D17ECF8CC002A103F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5A6C52C17ECF8CC002A103F /* MMStopWatch.app */,
+				E5A6C54D17ECF8CC002A103F /* MMStopWatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5A6C52E17ECF8CC002A103F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5C6D66D17EFBFC80013BC9D /* AVFoundation.framework */,
+				E5A6C52F17ECF8CC002A103F /* Foundation.framework */,
+				E5A6C53117ECF8CC002A103F /* CoreGraphics.framework */,
+				E5A6C53317ECF8CC002A103F /* UIKit.framework */,
+				E5A6C54E17ECF8CC002A103F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5A6C53517ECF8CC002A103F /* MMStopWatch */ = {
+			isa = PBXGroup;
+			children = (
+				E5A6C53E17ECF8CC002A103F /* MMAppDelegate.h */,
+				E5A6C53F17ECF8CC002A103F /* MMAppDelegate.m */,
+				E5A6C54117ECF8CC002A103F /* Main.storyboard */,
+				E5A6C54417ECF8CC002A103F /* MMViewController.h */,
+				E5A6C54517ECF8CC002A103F /* MMViewController.m */,
+				E5A6C56817ED02B6002A103F /* MMRoundButton.h */,
+				E5A6C56917ED02B6002A103F /* MMRoundButton.m */,
+				E534FDDB17EE9EF500244F28 /* furb@2x.png */,
+				E5C6D66B17EFBD090013BC9D /* banana.mp3 */,
+				E5A6C54717ECF8CC002A103F /* Images.xcassets */,
+				E5A6C53617ECF8CC002A103F /* Supporting Files */,
+			);
+			path = MMStopWatch;
+			sourceTree = "<group>";
+		};
+		E5A6C53617ECF8CC002A103F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5A6C56417ECFE1F002A103F /* Roboto-Light.ttf */,
+				E5A6C56517ECFE1F002A103F /* Roboto-Regular.ttf */,
+				E5C6D66817EFAB750013BC9D /* 911 Porscha.ttf */,
+				E5A6C53717ECF8CC002A103F /* MMStopWatch-Info.plist */,
+				E5A6C53817ECF8CC002A103F /* InfoPlist.strings */,
+				E5A6C53B17ECF8CC002A103F /* main.m */,
+				E5A6C53D17ECF8CC002A103F /* MMStopWatch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5A6C55417ECF8CC002A103F /* MMStopWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5A6C55A17ECF8CC002A103F /* MMStopWatchTests.m */,
+				E5A6C55517ECF8CC002A103F /* Supporting Files */,
+			);
+			path = MMStopWatchTests;
+			sourceTree = "<group>";
+		};
+		E5A6C55517ECF8CC002A103F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5A6C55617ECF8CC002A103F /* MMStopWatchTests-Info.plist */,
+				E5A6C55717ECF8CC002A103F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5A6C52B17ECF8CC002A103F /* MMStopWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5A6C55E17ECF8CC002A103F /* Build configuration list for PBXNativeTarget "MMStopWatch" */;
+			buildPhases = (
+				E5A6C52817ECF8CC002A103F /* Sources */,
+				E5A6C52917ECF8CC002A103F /* Frameworks */,
+				E5A6C52A17ECF8CC002A103F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMStopWatch;
+			productName = MMStopWatch;
+			productReference = E5A6C52C17ECF8CC002A103F /* MMStopWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5A6C54C17ECF8CC002A103F /* MMStopWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5A6C56117ECF8CC002A103F /* Build configuration list for PBXNativeTarget "MMStopWatchTests" */;
+			buildPhases = (
+				E5A6C54917ECF8CC002A103F /* Sources */,
+				E5A6C54A17ECF8CC002A103F /* Frameworks */,
+				E5A6C54B17ECF8CC002A103F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5A6C55317ECF8CC002A103F /* PBXTargetDependency */,
+			);
+			name = MMStopWatchTests;
+			productName = MMStopWatchTests;
+			productReference = E5A6C54D17ECF8CC002A103F /* MMStopWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5A6C52417ECF8CC002A103F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Kyle Mai";
+				TargetAttributes = {
+					E5A6C54C17ECF8CC002A103F = {
+						TestTargetID = E5A6C52B17ECF8CC002A103F;
+					};
+				};
+			};
+			buildConfigurationList = E5A6C52717ECF8CC002A103F /* Build configuration list for PBXProject "MMStopWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5A6C52317ECF8CC002A103F;
+			productRefGroup = E5A6C52D17ECF8CC002A103F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5A6C52B17ECF8CC002A103F /* MMStopWatch */,
+				E5A6C54C17ECF8CC002A103F /* MMStopWatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5A6C52A17ECF8CC002A103F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A6C54817ECF8CC002A103F /* Images.xcassets in Resources */,
+				E534FDDC17EE9EF500244F28 /* furb@2x.png in Resources */,
+				E5A6C53A17ECF8CC002A103F /* InfoPlist.strings in Resources */,
+				E5A6C56717ECFE1F002A103F /* Roboto-Regular.ttf in Resources */,
+				E5A6C56617ECFE1F002A103F /* Roboto-Light.ttf in Resources */,
+				E5C6D66C17EFBD090013BC9D /* banana.mp3 in Resources */,
+				E5A6C54317ECF8CC002A103F /* Main.storyboard in Resources */,
+				E5C6D66917EFAB750013BC9D /* 911 Porscha.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A6C54B17ECF8CC002A103F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A6C55917ECF8CC002A103F /* InfoPlist.strings in Resources */,
+				E5C6D66A17EFACC90013BC9D /* 911 Porscha.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5A6C52817ECF8CC002A103F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A6C56A17ED02B6002A103F /* MMRoundButton.m in Sources */,
+				E5A6C54017ECF8CC002A103F /* MMAppDelegate.m in Sources */,
+				E5A6C54617ECF8CC002A103F /* MMViewController.m in Sources */,
+				E5A6C53C17ECF8CC002A103F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A6C54917ECF8CC002A103F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A6C55B17ECF8CC002A103F /* MMStopWatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5A6C55317ECF8CC002A103F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5A6C52B17ECF8CC002A103F /* MMStopWatch */;
+			targetProxy = E5A6C55217ECF8CC002A103F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5A6C53817ECF8CC002A103F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5A6C53917ECF8CC002A103F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E5A6C54117ECF8CC002A103F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5A6C54217ECF8CC002A103F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5A6C55717ECF8CC002A103F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5A6C55817ECF8CC002A103F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5A6C55C17ECF8CC002A103F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E5A6C55D17ECF8CC002A103F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5A6C55F17ECF8CC002A103F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMStopWatch/MMStopWatch-Prefix.pch";
+				INFOPLIST_FILE = "MMStopWatch/MMStopWatch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5A6C56017ECF8CC002A103F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMStopWatch/MMStopWatch-Prefix.pch";
+				INFOPLIST_FILE = "MMStopWatch/MMStopWatch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E5A6C56217ECF8CC002A103F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MMStopWatch.app/MMStopWatch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMStopWatch/MMStopWatch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MMStopWatchTests/MMStopWatchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E5A6C56317ECF8CC002A103F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MMStopWatch.app/MMStopWatch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMStopWatch/MMStopWatch-Prefix.pch";
+				INFOPLIST_FILE = "MMStopWatchTests/MMStopWatchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5A6C52717ECF8CC002A103F /* Build configuration list for PBXProject "MMStopWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A6C55C17ECF8CC002A103F /* Debug */,
+				E5A6C55D17ECF8CC002A103F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5A6C55E17ECF8CC002A103F /* Build configuration list for PBXNativeTarget "MMStopWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A6C55F17ECF8CC002A103F /* Debug */,
+				E5A6C56017ECF8CC002A103F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5A6C56117ECF8CC002A103F /* Build configuration list for PBXNativeTarget "MMStopWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A6C56217ECF8CC002A103F /* Debug */,
+				E5A6C56317ECF8CC002A103F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5A6C52417ECF8CC002A103F /* Project object */;
+}
